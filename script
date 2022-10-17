@@ -1,0 +1,33 @@
+--made by аndre#0720
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Hotel Elephant Admin Pannel", "DarkTheme")--themes LightTheme DarkTheme GrapeTheme BloodTheme Ocean Midnight Sentinel Synapse
+
+
+local Main = Window:NewTab("commands")
+local MainSection = Main:NewSection("commands")
+
+
+MainSection:NewButton("give 10000 cash to yourself",'', function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/rb0zo/script1/main/1'))()
+end)
+
+MainSection:NewButton("remove 10000 cash to yourself",'', function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/rb0zo/script1/main/2'))()
+end)
+
+MainSection:NewButton("give 10000 cash to everyone",'', function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/rb0zo/script1/main/3'))()
+end)
+
+MainSection:NewButton("remove 10000 cash to everyone",'', function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/rb0zo/script1/main/4'))()
+end)
+
+MainSection:NewButton("destroy/fix map",'', function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/rb0zo/script1/main/5'))()
+end)
+
+MainSection:NewButton("team neutral",'', function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/rb0zo/script1/main/6'))()
+end)
+
